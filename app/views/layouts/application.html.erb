@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Devin Slick</title>
+  <meta charset="utf-8">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  </style>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+<footer>
+<p class='text-center'>
+<a aria-label="Fork me on GitHub" data-style="mega" href="https://github.com/SlickRailsDevelopment/" class="github-button">Fork me on Github</a><script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script><br>
+Developed by <a target="_blank" href="http://www.slickrails.com">SlickRails</a>
+</p>
+</footer>
+</html>
