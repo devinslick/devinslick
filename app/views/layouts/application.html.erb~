@@ -11,20 +11,47 @@
   <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
   <style>
+  footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #1abc9c;
+  text-align: center;
+  color: #ffffff;
+}
   </style>
 </head>
 <body>
 
-<%= yield %>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#home">Devin Slick</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#connect">CONNECT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
+<%= yield %>
+<br><br><br><br>
 </body>
 <footer>
-<div class='designedby text-center'>
 <p class='text-center'>
-<a aria-label="Fork me on GitHub" data-style="mega" href="https://github.com/SlickRailsDevelopment/" class="github-button">Fork me on Github</a><script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script><br>
+<a aria-label="Fork me on GitHub" data-style="mega" href="https://github.com/SlickRailsDevelopment/devinslick.git" class="github-button">Fork me on Github</a><script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script><br>
 Developed by <a target="_blank" href="http://www.slickrails.com">SlickRails</a>
 </p>
-</div>
 </footer>
 </html>
