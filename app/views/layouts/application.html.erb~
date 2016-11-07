@@ -19,7 +19,7 @@
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #1abc9c;
+  background-color: #669999;
   text-align: center;
   color: #ffffff;
 }
